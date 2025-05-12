@@ -1,10 +1,12 @@
 import streamlit as st
+import sys
 import bcrypt
 import json
 import os
 from gtts import gTTS
 from io import BytesIO
 from PIL import Image
+
 
 # ---------- CONFIGURACIÓN DE PÁGINA Y ESTILO GLOBAL ----------
 st.set_page_config(page_title="DiloConPics", layout="wide")
